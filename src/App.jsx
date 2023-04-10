@@ -11,24 +11,23 @@ import {
 } from "./containers";
 
 import "./App.css";
+import "./index.css";
 
 function App() {
   return (
     <div className="App">
       <div className="gradient_bg">
-        hello is there any one??
         <NavBar />
         <Header />
-        <div className="">
-          <Brand />
-          <WhatGPT3 />
-          <Features />
-          <Possiblities />
-          <Cta />
-          <Blog />
-          <Footer />
-        </div>
       </div>
+
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possiblities />
+      <Cta />
+      <Blog />
+      <Footer />
     </div>
   );
 }
