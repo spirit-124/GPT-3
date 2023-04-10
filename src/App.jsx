@@ -17,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <div className="gradient_bg">
+        hello is there any one??
         <NavBar />
         <Header />
       </div>
